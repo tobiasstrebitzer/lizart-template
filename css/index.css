@@ -1,0 +1,223 @@
+body {
+  background: url(../images/bg/01.jpg) no-repeat top center #000000 fixed;
+  margin: 10px 0px 0px 0px;
+  font-family: verdana;
+}
+
+a:link, a:visited {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding:0px;
+  margin: 0px 0px;
+}
+
+div#content {
+  float: left;
+  width: 500px;
+  padding: 0px;
+}
+
+div.blogitem {
+	background-color: #CCC;
+	background-color: rgba(255, 254, 239,0.82);
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	-moz-box-shadow: 0 0px 8px #6D6E5E;
+	-webkit-box-shadow: 0 0px 8px #6D6E5E;
+	margin: 20px 0px 0px 10px;
+	width:238px;
+	top: 152px;
+	float: left;
+}
+
+div.blogitem-full {
+	width:486px;
+}
+
+div.blogitem p {
+  padding: 0px 4px 4px 4px;
+  margin: 0px 4px;
+  font-size: 11px;
+	color: #444;
+	text-shadow: 0 0 2px #999;
+	text-align: justify;
+}
+
+div.blogitem h1 {
+  margin: 3px;
+  font-size: 12px;
+  background: #B3B397;
+  -moz-border-radius: 8px 8px 0px 0px;
+  -webkit-border-top-left-radius: 8px;
+  -webkit-border-top-right-radius: 8px;
+  border-bottom: 4px solid #A7A188;
+  text-align: left;
+  padding: 0px 4px;
+  color: #444;
+  text-shadow: 0px 2px 0px #FFF;
+}
+
+p.article {
+  text-align: justify;
+  margin: 0px;
+  padding: 0px 0px 8px 0px;
+  color: #222222;
+  font-size: 15px;
+  text-shadow: 0px 1px 2px #666;
+  line-height: 22px;
+}
+
+ul#topmenu-list{
+  padding: 8px 0px;
+}
+
+ul#topmenu-list li {
+  float: left;
+  margin: 0px;
+  height: 54px;
+  line-height: 54px;
+}
+
+ul#topmenu-list li a:link, ul#topmenu-list li a:visited {
+  font-size: 36px;
+  text-shadow: 0px 1px 3px #171717;
+  color: #8A8A76;
+  height: 54px;
+  line-height: 48px;
+  display: block;
+  width: 172px;
+  text-align: center;
+}
+
+ul#topmenu-list li a:hover, ul#topmenu-list li a:active {
+  color: #FFFFFF;
+}
+
+ul#topmenu-list li a.active-link {
+  background: url(../images/menu_over.png) no-repeat top left;
+  color: #FFFFFF;
+}
+
+img {
+  border: none;
+}
+
+div.break {
+  clear: both;
+}
+
+div#page {
+  width: 800px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div#header-outer {
+  margin: 80px 0px 0px 0px;
+  height: 72px;
+  background: url(../images/stripe/yellow.png) repeat-x center;
+}
+
+div#header {
+  width: 900px;
+  height: 72px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div#boxcontainer {
+  width: 300px;
+  float: right;
+}
+
+div.box-head {
+  background:url("../box/tl.png") no-repeat scroll top left transparent;
+  height:30px;
+  padding-left: 24px;
+}
+
+div.box-head div {
+  background:url("../box/tr.png") no-repeat scroll top right transparent;
+  padding-right: 24px;
+  height:30px;
+}
+
+div.box-head div div {
+  background:url("../box/tc.png") repeat-x scroll top left transparent;
+  height:30px;
+}
+
+div.box-middle {
+  background:url("../box/ml.png") no-repeat scroll bottom left transparent;
+  padding-left: 24px;
+}
+
+div.box-middle div {
+  background:url("../box/mr.png") no-repeat scroll bottom right transparent;
+  padding-right: 24px;
+}
+
+div.box-middle div div {
+  background:url("../box/mc.png") repeat-x scroll bottom left;
+  min-height:100px;
+  padding: 0px;
+}
+
+div.box-footer {
+  background:url("../box/bl.png") no-repeat scroll top left transparent;
+  height:26px;
+  padding-left: 24px;
+}
+
+div.box-footer div {
+  background:url("../box/br.png") no-repeat scroll top right transparent;
+  padding-right: 24px;
+  height:26px;
+}
+
+div.box-footer div div {
+  background:url("../box/bc.png") repeat-x scroll top left transparent;
+  height:26px;
+  padding: 0px;
+}
+
+div.box-middle h1 {
+  margin: 0px 0px 4px 0px;
+  padding: 0px;
+  color: #444;
+  text-shadow: 0px 2px 0px #FFF;
+}
+
+div.box-middle h2 {
+  margin: 0px 0px 4px 0px;
+  padding: 4px 0px;
+  color: #3B2F23;
+  font-weight: normal;
+}
+
+div#footer {
+  width: 100%;
+  z-index:999999;
+  position:fixed;
+  height: 48px;
+  bottom: 0px;
+  background: url(../images/semitrans.png) repeat-x bottom left;
+}
+
+img#logo {
+  margin: -128px 0px 0px 0px;
+}
+
+span.hover {
+  position: absolute;
+  color: #FFF;
+}
+
+ul#topmenu-list a.active-link span.hover {
+  opacity: 1 !important;
+}
